@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94A9D8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logofinal" />
+
+    <EditText
+        android:id="@+id/email_edit_login"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:backgroundTint="#fff"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/password_edit_login"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:backgroundTint="#fff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35sp"
+        android:background="#2E4477"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:background="@null"
+        android:text="New? Sign up Here"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

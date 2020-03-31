@@ -1,0 +1,58 @@
+<resources>
+    <string-array name="categories_array">
+        <item>Sport</item>
+        <item>Coffee</item>
+        <item>Cinema/Theatre</item>
+        <item>Conference</item>
+        <item>Trade show</item>
+    </string-array>
+
+    <!--<string-array name="sort_by">-->
+        <!--<item>Name</item>-->
+        <!--<item>Category</item>-->
+    <!--</string-array>-->
+
+
+    <string name="app_name">SurreyMeets</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="Name">Name</string>
+    <string name="age">Age:</string>
+    <string name="done">Done</string>
+    <string name="statistics">Statistics</string>
+    <string name="eventscreated">Events Created:</string>
+    <string name="eventsjoined">Events Joined:</string>
+    <string name="attendees">Attendees</string>
+    <string name="bio">Bio</string>
+    <string name="upcoming">Upcoming Events</string>
+    <string name="myevents">My Events</string>
+    <string name="createevent">Create Event</string>
+    <string name="eventname">Event Name:</string>
+    <string name="entername">Enter Name here</string>
+    <string name="enterdescription">Description:</string>
+    <string name="participants">Participants:</string>
+    <string name="enterdesc">Enter Description</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="location">Location:</string>
+    <string name="create">CREATE</string>
+    <string name="enterlocation">Enter Location</string>
+    <string name="enterdate">00/00/00</string>
+    <string name="entertime">00:00</string>
+    <string name="discover">Discover</string>
+    <string name="switchview">Switch View</string>
+    <string name="category">Category:</string>
+    <string name="setDate">Set Date</string>
+    <string name="setTime">Set Time</string>
+    <string name="profilePicture">Change profile picture</string>
+    <string name="desc">Description</string>
+    <string name="host">Host:</string>
+    <string name="viewcategory">Category</string>
+    <string name="join">JOIN</string>
+    <string name="category_for_discover">Category</string>
+    <string name="view_events_on_map">View Events On Map</string>
+    <string name="search">Search...</string>
+    <string name="nearby">Nearby Events</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="45"
+                android:endColor="#F3D34A"
+                android:startColor="#F3E37C" />
+            <size
+                android:width="120dp"
+                android:height="120dp" />
+            <corners android:radius="50dp" />
+        </shape>
+    </item>
+    <item android:width="40dp"
+    android:height="40dp"
+        android:gravity="center">
+        <bitmap android:src="@drawable/add">
+
+        </bitmap>
+    </item>
+</layer-list>

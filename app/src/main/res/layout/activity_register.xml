@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94A9D8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/register_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="#fff"
+        android:textSize="60sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/name_edit_register"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/age_edit_register"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:hint="Age"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/email_edit_register"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/password_edit_register"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:backgroundTint="#fff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/c_password_edit_register"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:backgroundTint="#fff"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="26sp" />
+
+    <CheckBox
+        android:id="@+id/data_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#FFF"
+        android:text="I agree to my data being stored in compliance with GDPR Regulations"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:background="#2E4477"
+        android:text="Submit Details"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_login_from_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:background="@null"
+        android:text="Already Registered? Click Here"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/view2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:elevation="12dp"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:id="@+id/participant_image"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_above="@+id/view2"
+            android:layout_alignStart="@+id/view2"
+            android:layout_marginBottom="87dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profileolan" />
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

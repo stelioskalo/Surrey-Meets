@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "879144245793",
+    "firebase_url": "https://surreymeets-6a316.firebaseio.com",
+    "project_id": "surreymeets-6a316",
+    "storage_bucket": "surreymeets-6a316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879144245793:android:48666199cd051540",
+        "android_client_info": {
+          "package_name": "sep_group_7.SurreyMeets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9wuQPUaEyVqW56H-co2jTr4SfJvFNFJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879144245793-fqrtod1v9ocl09hm45pk637oh42prdt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879144245793:android:0839af49d71cb3ff",
+        "android_client_info": {
+          "package_name": "sep_group_7.eventapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879144245793-c6c06do2a14kg4pj0471haorn9gf4sl1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sep_group_7.eventapp",
+            "certificate_hash": "7b1c187a87c4b9211d64349f5b34daabd64ed7f1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9wuQPUaEyVqW56H-co2jTr4SfJvFNFJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879144245793-fqrtod1v9ocl09hm45pk637oh42prdt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

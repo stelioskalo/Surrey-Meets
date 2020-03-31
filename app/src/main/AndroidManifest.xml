@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="sep_group_7.SurreyMeets">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/surreymeet"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/surreymeet"
+        android:supportsRtl="true"
+        android:name=".SurreyMeets"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCzsqeUdtee31cGfvbq47a9FF2biGPdnBA" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".RegisterActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".TempHomeActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".LoginActivity"
+                  android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".EditProfile"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".MapContainer"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ViewEvent"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".EventsMap"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ViewPerson"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".EditEvent"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".MenuContainer"
+                  android:screenOrientation="portrait">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        </activity>
+
+    </application>
+
+</manifest>
